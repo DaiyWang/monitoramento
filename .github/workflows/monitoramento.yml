@@ -4,7 +4,7 @@ name: Monitor de Site
 on:
 	schedule:
 		- cron: '*/5 * * * *'
-	worflow_dispatch:
+		worflow_dispatch:
 
 # o que fazer quando o agendamento for ativado
 jobs:
